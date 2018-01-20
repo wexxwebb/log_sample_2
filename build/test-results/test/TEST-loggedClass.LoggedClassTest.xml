@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="loggedClass.LoggedClassTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-20T17:09:54" hostname="DESKTOP-BO8H4UB" time="0.047">
+  <properties/>
+  <testcase name="test1" classname="loggedClass.LoggedClassTest" time="0.047"/>
+  <system-out><![CDATA[2018-01-20 20:09:54 DEBUG LoggedClass:10 - Test start
+ 2018-01-20 20:09:54 DEBUG LoggedClass:11 - Test end
+ ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

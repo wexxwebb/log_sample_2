@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="email.EmailSenderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-20T17:09:52" hostname="DESKTOP-BO8H4UB" time="1.61">
+  <properties/>
+  <testcase name="run" classname="email.EmailSenderTest" time="1.61"/>
+  <system-out><![CDATA[2018-01-20 20:09:54 INFO  EmailSender:76 - Log file has sent
+ ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
