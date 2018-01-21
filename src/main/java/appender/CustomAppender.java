@@ -12,9 +12,20 @@ import java.util.List;
 
 public class CustomAppender extends AppenderSkeleton {
 
+    private String file;
+
+    public String getFile() {
+        return file;
+    }
+
+    public void setFile(String file) {
+        this.file = file;
+    }
+
     @Override
     protected void append(LoggingEvent event) {
-        Path path = Paths.get("log/log.log");
+        Path path = Paths.get(file);
+
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SS");
             String sb = sdf.format(event.getTimeStamp()) +
